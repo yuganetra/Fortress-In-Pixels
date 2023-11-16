@@ -1,0 +1,22 @@
+// App.scss
+
+$default-padding: 20px;
+
+body {
+  padding: $default-padding;
+  font-family: 'Arial', sans-serif;
+  background-color: #eaeaea;
+  
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px); /* Adjust height based on your design */
+}
